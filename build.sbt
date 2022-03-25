@@ -7,8 +7,8 @@ lazy val scalaTestVersion = "3.2.11"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-stream" % akkaVersion,
-  "com.typesafe.akka" %% "akka-stream-testkit" % akkaVersion % Test,
-  "com.typesafe.akka" %% "akka-testkit" % akkaVersion % Test,
+  "com.typesafe.akka" %% "akka-stream-testkit" % akkaVersion,
+  "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
   "org.scalatest" %% "scalatest" % scalaTestVersion
 
 )
